@@ -7,6 +7,7 @@
     <title>AI Poem Genarator</title>
   </head>
   <body>
+    <div class="container">
     <header>
       <h1>AI English Poem Generator</h1>
     </header>
@@ -18,10 +19,11 @@
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
-      <div>
+      <div class="poem">
         Deep into that darkness peering,
         <br />
         Long I stood there, wondering, fearing,
@@ -46,6 +48,7 @@
         hosted on Netlify</a
       >
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
